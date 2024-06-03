@@ -14,7 +14,7 @@ Se utilizó la paralelización de datos (data parallelism) mediante el uso de Fu
  paralelizable y puede beneficiarse significativamente de la paralelización para reducir el tiempo de cálculo.
 
 */
-object NewtonParalela {
+class NewtonParalela {
   // Definición de los tipos de expresión
   sealed trait Expr
   case class Numero(d: Double) extends Expr

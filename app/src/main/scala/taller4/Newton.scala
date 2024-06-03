@@ -1,7 +1,6 @@
 package taller4
 
 class Newton {
-  object Newton {
 
     // Definición del trait Expr y sus casos
     sealed trait Expr
@@ -103,5 +102,5 @@ class Newton {
       }
       xn
     }
-  }
+
 }
